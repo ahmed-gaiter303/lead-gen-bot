@@ -26,19 +26,19 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 
-text
+
 
 ### Configuration
 Create `.env` file:
 TELEGRAM_BOT_TOKEN=your_token_here
 OPENAI_API_KEY=your_key_here
 
-text
+
 
 ### Run
 python main.py
 
-text
+
 
 ## Usage
 1. Start the bot: `/start`
@@ -51,3 +51,4 @@ Ahmed Ekramy
 
 ## License
 MIT
+EOF
