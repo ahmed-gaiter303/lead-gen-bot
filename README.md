@@ -1,71 +1,53 @@
-# AI Lead Generation Bot
+# 🤖 AI Lead Generation Bot
 
-## 🎯 What is This?
+A powerful Telegram bot that automates lead generation and personalized messaging using AI.
 
-An intelligent bot that automatically:
-- Collects leads from various sources
-- Generates personalized AI messages
-- Tracks engagement
-- Saves time on manual outreach
+## Features
+✅ Load leads from database
+✅ Generate personalized messages with OpenAI
+✅ Track engagement metrics
+✅ Real-time statistics
 
-## 💡 Problem Solved
+## Tech Stack
+- Python 3.12
+- Telegram Bot API
+- OpenAI GPT-3.5
+- SQLite Database
 
-Small businesses waste 5+ hours daily on manual lead outreach.
-This bot automates it.
-
-## ⭐ Features
-
-✅ Automated lead collection
-✅ AI-powered message generation
-✅ Telegram/Discord integration
-✅ Lead tracking & analytics
-✅ Multi-language support
-
-## 🚀 Quick Start
+## Setup
 
 ### Prerequisites
-- Python 3.10+
-- Telegram Account
+- Python 3.12+
+- Telegram Bot Token (from BotFather)
 - OpenAI API Key
 
 ### Installation
-
-1. Clone the repo
-git clone https://github.com/yourusername/lead-gen-ai-bot
-cd lead-gen-ai-bot
-
-
-
-2. Install dependencies
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 
+text
 
+### Configuration
+Create `.env` file:
+TELEGRAM_BOT_TOKEN=your_token_here
+OPENAI_API_KEY=your_key_here
 
-3. Setup .env
-cp .env.example .env
+text
 
-Fill in your tokens
-
-4. Run the bot
+### Run
 python main.py
 
+text
 
+## Usage
+1. Start the bot: `/start`
+2. Load leads: Press "📊 Load Sample Leads"
+3. Generate messages: Press "📧 Generate Messages"
+4. View stats: Press "📈 View Stats"
 
-## 📊 Results
+## Author
+Ahmed Ekramy
 
-- Customers save 5+ hours per week
-- 250-400% increase in leads
-- 40% engagement rate
-
-## 💰 Pricing
-
-- One-time setup: $200-300
-- Monthly maintenance: $50
-
-## 📝 License
-
-MIT License
-
-## 👨‍💻 Author
-
-Your Name
+## License
+MIT
